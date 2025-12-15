@@ -26,4 +26,4 @@ You will learn how to:
 
 ---
 
-➡️ **Start here:** [Week 1 — Threat Modeling](./week-1-threat-modeling)
+➡️ **Start here:** [Week 1 — Threat Modeling](./week-1-threat-model)

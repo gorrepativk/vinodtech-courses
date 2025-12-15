@@ -76,5 +76,3 @@ Any boundary crossing is a **potential attack point**.
    - Assets
    - Trust boundaries
    - At least **5 realistic threats**
-
-➡️ **Next:** [Week 2 — Cryptography Basics](./week-2-cryptography-basics)
