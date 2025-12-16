@@ -23,6 +23,8 @@ You will learn how to:
 - **Week 2:** Cryptography Basics for Embedded Systems  
 - **Week 3:** Secure Key Storage & Management  
 - **Week 4:** Secure OTA Architecture & Rollback Protection  
+- **Week 5:** Secure Boot & Root of Trust
+- **Week 6:** End-to-End Security Architecture (Capstone)
 
 ---
 
