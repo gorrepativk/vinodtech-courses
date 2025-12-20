@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkvinodtech_courses=globalThis.webpackChunkvinodtech_courses||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"VinodTech Blog","authorsListPath":"/blog/authors"}')}}]);
