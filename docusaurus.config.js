@@ -1,6 +1,4 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from 'prism-react-renderer';
@@ -36,10 +34,24 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/', // docs at site root
+          routeBasePath: '/', // Courses at site root
           editUrl: 'https://github.com/gorrepativk/vinodtech-courses/edit/main/',
         },
-        blog: false, // disable blog for courses site
+
+        // ✅ BLOG ENABLED
+        blog: {
+          showReadingTime: true,
+          blogTitle: 'VinodTech Blog',
+          blogDescription:
+            'Notes and deep-dives on Embedded Systems, IoT Security, Firmware, OTA, and production engineering.',
+          blogSidebarTitle: 'Recent posts',
+          blogSidebarCount: 10,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+        },
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -51,15 +63,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/docusaurus-social-card.jpg',
+
       colorMode: {
         respectPrefersColorScheme: true,
       },
+
       navbar: {
-        title: 'VinodTech Courses',
-        logo: {
-          alt: 'VinodTech',
-          src: 'img/logo.svg',
-        },
+        title: 'VinodTech',
         items: [
           {
             type: 'docSidebar',
@@ -68,23 +78,33 @@ const config = {
             label: 'Courses',
           },
           {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
             href: 'https://vinodtech.com',
             label: 'Main Site',
             position: 'right',
           },
           {
-            href: 'https://github.com/gorrepativk/vinodtech-courses',
-            label: 'GitHub',
+            href: 'https://vinodtech.com/contact',
+            label: 'Contact',
             position: 'right',
           },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
           {
             title: 'Courses',
             items: [{ label: 'All Courses', to: '/' }],
+          },
+          {
+            title: 'Content',
+            items: [{ label: 'Blog', to: '/blog' }],
           },
           {
             title: 'VinodTech',
@@ -94,8 +114,9 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} VinodTech.`,
+        copyright: `© ${new Date().getFullYear()} VinodTech`,
       },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

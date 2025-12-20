@@ -1,11 +1,19 @@
 ---
 title: Courses
-description: Hands-on courses on Embedded Systems, IoT, and Secure Firmware Engineering.
+description: Professional courses on Embedded Systems, IoT Security, and Firmware Engineering.
 ---
 
-# Courses
+# Embedded & IoT Engineering Courses
 
-Practical, project-based learning focused on **real-world embedded and IoT systems**.
+Professional, **hands-on courses** designed for engineers building
+real-world embedded and IoT systems.
+
+Each course focuses on **architecture, trade-offs, and production-grade design** —
+not just APIs or theory.
+
+---
+
+## Available Courses
 
 <div className="row">
 
@@ -13,17 +21,23 @@ Practical, project-based learning focused on **real-world embedded and IoT syste
   <div className="col col--6">
     <div className="card">
       <div className="card__body">
-        <h3>Secure IoT Firmware — Practical Encryption & OTA</h3>
-        <p>
-          Threat modeling, cryptography choices, secure key storage,
-          secure boot, and production-grade OTA design.
-        </p>
-        <p><b>Level:</b> Intermediate · <b>Duration:</b> 6 weeks</p>
+        <h3>Secure IoT Firmware</h3>
+        <p><em>Design, protect, and update embedded devices securely</em></p>
+
+        <ul>
+          <li>Threat modeling for IoT devices</li>
+          <li>Practical cryptography & key management</li>
+          <li>Secure boot & OTA architecture</li>
+        </ul>
+
+        <p><b>Level:</b> Intermediate<br/>
+           <b>Duration:</b> 6 weeks</p>
+
         <a
           className="button button--primary"
           href="./secure-iot-firmware/intro"
         >
-          View course
+          View course →
         </a>
       </div>
     </div>
@@ -33,20 +47,38 @@ Practical, project-based learning focused on **real-world embedded and IoT syste
   <div className="col col--6">
     <div className="card">
       <div className="card__body">
-        <h3>IoT Communication Security — MQTT, TLS, BLE & Cellular</h3>
-        <p>
-          Secure device-to-cloud communication using TLS, MQTT authentication,
-          BLE pairing models, and cellular IoT security.
-        </p>
-        <p><b>Level:</b> Intermediate · <b>Duration:</b> 6 weeks</p>
+        <h3>IoT Communication Security</h3>
+        <p><em>Secure MQTT, TLS, BLE & cellular communication</em></p>
+
+        <ul>
+          <li>TLS fundamentals for embedded devices</li>
+          <li>Secure MQTT & broker authorization</li>
+          <li>BLE pairing & cellular IoT security</li>
+        </ul>
+
+        <p><b>Level:</b> Intermediate<br/>
+           <b>Duration:</b> 6 weeks</p>
+
         <a
           className="button button--primary"
           href="./iot-communication-security/intro"
         >
-          View course
+          View course →
         </a>
       </div>
     </div>
   </div>
 
 </div>
+
+---
+
+## More Courses Coming Soon
+
+Advanced topics currently in development:
+
+- RTOS Internals & Real-Time Design
+- Secure Edge AI Deployment
+- IoT DevOps & Fleet Management
+
+Follow updates on **vinodtech.com**.

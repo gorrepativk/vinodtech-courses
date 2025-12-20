@@ -1,19 +1,49 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+ai:
+  label: Artificial Intelligence
+  permalink: /ai
+  description: Practical AI systems, GenAI, LLMs, agents, and applied machine learning.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+genai:
+  label: Generative AI
+  permalink: /genai
+  description: LLMs, RAG, agents, memory systems, and real-world GenAI architectures.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+iot:
+  label: Internet of Things
+  permalink: /iot
+  description: Secure IoT systems, edge computing, sensors, gateways, and cloud integration.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+embedded:
+  label: Embedded Systems
+  permalink: /embedded
+  description: Firmware, microcontrollers, RTOS, hardware-software integration, and testing.
+
+security:
+  label: Security
+  permalink: /security
+  description: Lightweight cryptography, secure IoT protocols, encryption, and privacy.
+
+research:
+  label: Research
+  permalink: /research
+  description: Academic research, experiments, evaluations, and conference-ready insights.
+
+mlops:
+  label: MLOps
+  permalink: /mlops
+  description: Model deployment, monitoring, CI/CD, Kubernetes, and production ML systems.
+
+product:
+  label: Product Engineering
+  permalink: /product
+  description: Building scalable AI-first products and platforms from idea to deployment.
+
+interior-tech:
+  label: Interior Tech
+  permalink: /interior-tech
+  description: AI-powered tools and automation for interior design and manufacturing.
+
+career:
+  label: Career & Learning
+  permalink: /career
+  description: Career growth, PhD prep, freelancing, and continuous learning in tech.
